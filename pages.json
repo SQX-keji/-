@@ -1,0 +1,230 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/taskDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+	
+	
+		{
+			"path": "pages/errands/index",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "外卖点餐券",
+				"enablePullDownRefresh": false
+			}
+		},
+	
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的作业",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		
+		{
+			"path": "pages/task/tasklist",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "任务列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+	
+		// my-my
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		
+		{
+			"path": "pages/my/updataNickName",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改昵称",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		{
+			"path": "pages/my/account",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		{
+			"path": "pages/my/wallet",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的钱包",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+	
+		{
+			"path": "pages/my/moneydetails",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "资金明细",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance":100,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+		    "path" : "pages/my/customer",
+		    "style" : {
+		       "navigationBarTextStyle": "black",
+		       "navigationBarTitleText": "联系客服",
+		       "enablePullDownRefresh": false
+		    }
+		    
+		},
+		// public-public
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarBackgroundColor": "#F7F7F7",
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+	
+		
+		{
+			"path": "pages/member/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/webview",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		// member-member
+		{
+			"path": "pages/member/jifen",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的积分",
+				"enablePullDownRefresh": false
+			}
+		},
+	
+	
+		
+	
+		{
+			"path": "pages/member/zhifubao",
+			"style": {
+				"navigationBarTitleText": "提现账号",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/xieyi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/member/mimi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "隐私政策",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "省钱兄霸王餐",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#B3B3B3",
+		"selectedColor": "#ffc705",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home-selected.png",
+				"text": "首页"
+			}, 
+			{
+				"pagePath": "pages/order/index",
+				"iconPath": "static/img/tabbar/myorder.png",
+				"selectedIconPath": "static/img/tabbar/myorder-act.png",
+				"text": "作业"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/img/tabbar/my.png",
+				"selectedIconPath": "static/img/tabbar/my-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
